@@ -1,0 +1,55 @@
+.App {
+        border: 3px solid #df1515;
+}
+
+
+#letter {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: antiquewhite;
+        border: 3px solid transparent;
+        color: #df1515;
+        width: 50px;
+        height: 50px;
+}
+
+
+.keyBoard {
+        margin-top: 17.4%;
+        margin-left: 17%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(10, 80px);
+        grid-template-rows: repeat(4, 80px);
+        gap: 50px;
+        font-size: large;
+
+}
+
+.screenContainer {
+        display: inline-flex;
+        border: 2px solid #1b0101;
+        margin-top: 1.5%;
+        margin-left: 11%;
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        height: 250px;
+        width: 1500px;
+
+}
+
+.buttons {
+        text-align: center;
+        margin-top: 2%;
+        padding: 20px;
+
+
+
+}
+
+button {
+        margin: 8px;
+        height: 30px;
+}
